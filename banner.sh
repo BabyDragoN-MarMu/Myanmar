@@ -57,9 +57,7 @@ echo " "
 echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$white of$WH M$BL Y$GR A$PP N$GR M$YL A$WH I$RD 》"
 echo
 echo -e ""
-echo -e $GR " Enter Your Name : "
-read name
-echo " "
+echo "
 cd  /data/data/com.termux/files/usr/etc
 
 rm bash.bashrc
@@ -100,3 +98,4 @@ sleep 1.0
 
 cd $HOME
 exit 
+
