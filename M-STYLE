@@ -56,11 +56,10 @@ sleep 1.0
 pip install lolcat
 gem install lolcat
 echo " "
-echo -e $YL"      ------☆☆☆------($RD  T E R M U X  $GR)------☆☆☆------"
-
+echo -e $YL"      ------☆☆☆------($RD  M A R M U  $GR)------☆☆☆------"
 
 echo " "
-echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$WH of$RD M$BL Y$GR A$PP N$LBL M$YL A$BL R$GY 》"
+echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$WH of$RD M$BL Y$GR A$PP N$LBL M$YL A$BL R$GY 》" 
 echo
 echo -e ""
 echo -e $GR " Enter Your Name : "
@@ -96,7 +95,7 @@ cd Myanmar
 pkg install figlet -y
 echo ""
 clear
-echo "                   "DONE  BRO  ENJOY  | lolcat
+echo "                   "DO YOU KNOW MARMU ??  | lolcat
 echo
 pkg install toilet -y
 cd $HOME
@@ -113,6 +112,8 @@ figlet -f big ' MYANMAR ' | lolcat
 
 echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION
  " | lolcat
+echo'
+echo " ခေါင်းကြီးတို့ရဲ့TERMUXကို ပိတ်ပီးပြန်ဖွင့်လိုက်ပါ 😎 " | lolcat
 sleep 0.2
 echo " "
 
