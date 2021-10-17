@@ -102,7 +102,7 @@ pkg install toilet -y
 cd $HOME
 sleep 2
 apt update && apt upgrade -y
-apt install cmatrix
+pkg install nano -y
 echo " "
 sleep 0.2
 clear
@@ -114,11 +114,15 @@ figlet -f big ' MYANMAR ' | lolcat
 echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION
  " | lolcat
 sleep 0.2
-cmatrix
 echo " "
-sleep 1.0
+
+xdg-open https://www.facebook.com/marmu.007/
+
 echo"""
+
 cd $HOME
+
 kill -8 $PPID
+
 exit
 
