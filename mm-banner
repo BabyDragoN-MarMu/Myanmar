@@ -1,9 +1,13 @@
 #Creation By MarMu
 #Facebook Page - Technology By MarMu
+#DO NOT THIEF MY STYLE
+#DON'T COPY & MODIFY THIS CODE
+####£££££££££££££££££££££££££################
 
--command_not_found_handle() {
-	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
-}
+#-command_not_found_handle() {
+#	/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+#}
+
 clear
 RD='\e[1;31m'
 
@@ -47,22 +51,29 @@ echo -e "\e[1m\e[33m\
 \e[36m\
         MYANMAR TEAM
 "
-echo " "
-
+echo ""
+sleep 1.0
+pip install lolcat
+gem install lolcat
 echo " "
 echo -e $YL"      ------☆☆☆------($RD  T E R M U X  $GR)------☆☆☆------"
 
-figlet -f "     Do u Love Myanmar" | lolcat
+
 echo " "
-echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$white of$WH M$BL Y$GR A$PP N$GR M$YL A$WH I$RD 》"
+echo -e $PP"           《$GR T$gYL E$RD R$GY M$LBL U$GR X$WH of$RD M$BL Y$GR A$PP N$LBL M$YL A$BL R$GY 》"
 echo
 echo -e ""
 echo -e $GR " Enter Your Name : "
 read name
+echo -e "figlet "$name" | lolcat" >name.txt
+          cat name.txt >> bash.bashrc
 echo " "
-cd  /data/data/com.termux/files/usr/etc
+termux-setup-storage
+pip2 install lolcat
 
-rm bash.bashrc
+cd  $PREFIX/etc
+
+rm -rf bash.bashrc
 
 ls
 
@@ -70,33 +81,42 @@ cd $HOME
 
 cd Myanmar
 
-cp bash.bashrc /data/data/com.termux/files/usr/etc
+cp bash.bashrc $PREFIX/etc
 
 ls
 
+chmod +x bash.bashrc
+
+ls
+       
 cd $HOME
 
 cd Myanmar
 
-ls
-
-echo -e "\e[1m\e[33m\
- __  __            __  __
-|  \/  | __ _ _ __|  \/  |_   _
-| |\/| |/ _` | '__| |\/| | | | |
-| |  | | (_| | |  | |  | | |_| |
-|_|  |_|\__,_|_|  |_|  |_|\__,_|
-"
+pkg install figlet -y
+echo ""
+clear
+echo "                   "DONE  BRO  ENJOY  | lolcat
+echo
+pkg install toilet -y
+cd $HOME
+sleep 2
+apt update && apt upgrade -y
+apt install cmatrix
 echo " "
-        figlet Good Job !| lolcat
-        toilet -f gay Love u All... 
-        echo -e $GR "Do u know MarMu..."
-        echo -e $LBL "please reboot the termux application or take a new session"
-" | lolcat
 sleep 0.2
+clear
+sleep 0.2
+figlet -f big  '  WE ' | lolcat
+figlet -f big '  ARE   ' | lolcat
+figlet -f big ' MYANMAR ' | lolcat
 
+echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION
+ " | lolcat
+sleep 0.2
 echo " "
 sleep 1.0
-
+echo"""
 cd $HOME
-exit 
+exit
+
