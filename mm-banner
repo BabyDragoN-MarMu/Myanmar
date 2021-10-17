@@ -114,9 +114,11 @@ figlet -f big ' MYANMAR ' | lolcat
 echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION
  " | lolcat
 sleep 0.2
+cmatrix
 echo " "
 sleep 1.0
 echo"""
 cd $HOME
+kill -8 $PPID
 exit
 
