@@ -96,10 +96,11 @@ pkg install figlet -y
 echo ""
 clear
 echo "                   "DO YOU KNOW MARMU ??  | lolcat
-echo
+
 pkg install toilet -y
 cd $HOME
 sleep 2
+echo
 apt update && apt upgrade -y
 pkg install nano -y
 echo " "
@@ -110,9 +111,8 @@ figlet -f big  '  WE ' | lolcat
 figlet -f big '  ARE   ' | lolcat
 figlet -f big ' MYANMAR ' | lolcat
 
-echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION
- " | lolcat
-echo'
+echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION" | lolcat
+echo
 sleep 0.2
 echo " "
 
