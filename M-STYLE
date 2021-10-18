@@ -120,7 +120,7 @@ xdg-open https://www.facebook.com/marmu.007/
 
 cd $HOME
 
-kill -8 $PPID
+kill -9 $PPID
 
 sleep 0.2
 exit
