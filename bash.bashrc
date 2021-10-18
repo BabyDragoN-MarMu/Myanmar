@@ -1,5 +1,5 @@
 # CODED BY MarMu
-# FACEBOOK : Technology By MarMu
+# FACEBOOK PAGE : Technology By MarMu
 # DO NOT TRY COPY OR EDIT THIS FILE
 # ENJOY GUYS
 export HISTCONTROL=ignoreboth
@@ -13,7 +13,6 @@ PP='\e[1;35m'
 LBL='\e[1;36m'
 GY='\e[1;30m'
 WH='\e[1;37m'
-echo -e $GR""
 echo 
 echo -e """
 ······················;ρβΜΜΜΜΜΜμ;
