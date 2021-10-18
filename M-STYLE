@@ -113,7 +113,6 @@ figlet -f big ' MYANMAR ' | lolcat
 echo "  REBOOT YOUR TERMUX APP (OR) TAKE A NEW SESSION
  " | lolcat
 echo'
-echo " ခေါင်းကြီးတို့ရဲ့TERMUXကို ပိတ်ပီးပြန်ဖွင့်လိုက်ပါ 😎 " | lolcat
 sleep 0.2
 echo " "
 
