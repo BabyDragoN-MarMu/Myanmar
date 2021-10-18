@@ -118,11 +118,11 @@ echo " "
 
 xdg-open https://www.facebook.com/marmu.007/
 
-echo"""
-
 cd $HOME
 
 kill -8 $PPID
 
+sleep 0.2
 exit
+
 
